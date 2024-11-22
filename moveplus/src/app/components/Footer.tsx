@@ -1,6 +1,6 @@
 "use client"; // Necessário para Componentes do Cliente no Next.js
 
-import { Box, Typography, Link, Grid, IconButton } from "@mui/material";
+import { Box, Typography, Grid, IconButton } from "@mui/material";
 import { Facebook, Twitter, Instagram, LinkedIn, Email, Phone } from "@mui/icons-material";
 
 export default function Footer() {
