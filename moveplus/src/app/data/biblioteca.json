@@ -1,0 +1,33 @@
+[
+    {
+      "titulo": "Guia de Mobilidade Sustentável",
+      "descricao": "Aprenda práticas simples para uma mobilidade mais sustentável.",
+      "tipo": "PDF",
+      "link": "/assets/guia-mobilidade.pdf"
+    },
+    {
+      "titulo": "Energias Renováveis 101",
+      "descricao": "Introdução às energias renováveis e seu impacto.",
+      "tipo": "Vídeo",
+      "link": "/assets/energias-renovaveis.mp4"
+    },
+    {
+      "titulo": "Impactos do Aquecimento Global",
+      "descricao": "Um estudo sobre os efeitos das mudanças climáticas.",
+      "tipo": "PDF",
+      "link": "/assets/impactos-aquecimento.pdf"
+    },
+    {
+      "titulo": "Ciclovias Urbanas",
+      "descricao": "Como as ciclovias ajudam na mobilidade sustentável.",
+      "tipo": "Artigo",
+      "link": "/assets/ciclovias-urbanas.html"
+    },
+    {
+      "titulo": "Frota Elétrica Move Plus+",
+      "descricao": "Conheça os benefícios da nossa frota elétrica.",
+      "tipo": "Imagem",
+      "link": "/assets/frota-eletrica.png"
+    }
+  ]
+  
