@@ -97,7 +97,7 @@ export default function SolucoesPage() {
                   flexDirection: "column",
                   alignItems: "center",
                   justifyContent: "space-between",
-                  height: "280px", // Altura fixa para todos os cards
+                  height: "280px", 
                   "&:hover": {
                     transform: "scale(1.05)",
                     boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.2)",

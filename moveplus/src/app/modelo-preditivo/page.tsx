@@ -12,9 +12,9 @@ export default function ModeloPreditivoPage() {
     if (!kmMes || kmMes <= 0) return;
 
     const meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun"];
-    const co2PorKm = 0.25; // 0.25 kg de CO₂ por km
-    const custoCombustivelPorKm = 0.6; // R$ 0,60 por km
-    const custoEletricoPorKm = 0.2; // R$ 0,20 por km
+    const co2PorKm = 0.25; 
+    const custoCombustivelPorKm = 0.6; 
+    const custoEletricoPorKm = 0.2; 
 
     const co2Evitado = meses.map(() => kmMes * co2PorKm);
     const economia = meses.map(() => kmMes * (custoCombustivelPorKm - custoEletricoPorKm));

@@ -9,8 +9,8 @@ export default function SimuladorEconomiasPage() {
 
   const calcularEconomia = () => {
     const kmPercorrido = parseFloat(km);
-    const economia = (kmPercorrido * 0.6).toFixed(2); // R$ 0,60 por km
-    const co2Evitado = (kmPercorrido * 0.25).toFixed(2); // 0.25 kg de CO₂ por km
+    const economia = (kmPercorrido * 0.6).toFixed(2); 
+    const co2Evitado = (kmPercorrido * 0.25).toFixed(2); 
     setResultado({ economia: parseFloat(economia), co2: parseFloat(co2Evitado) });
   };
 

@@ -1,4 +1,4 @@
-"use client"; // Necessário para Componentes do Cliente no Next.js
+"use client"; 
 
 import { Box, Typography, Grid, IconButton } from "@mui/material";
 import { Facebook, Twitter, Instagram, LinkedIn, Email, Phone } from "@mui/icons-material";

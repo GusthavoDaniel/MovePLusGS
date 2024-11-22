@@ -26,7 +26,7 @@ export default function LoginPage() {
         const data = await response.json();
         alert("Login bem-sucedido!");
         console.log("Token recebido:", data.token);
-        // Redirecionar ou armazenar token
+        
       } else {
         alert("Erro no login. Verifique suas credenciais.");
       }

@@ -2,13 +2,13 @@
 
 import { Container, Typography, Card, CardContent, CardMedia, Grid, Box, Link as MuiLink } from "@mui/material";
 
-// Dados de exemplo dos integrantes
+
 const integrantes = [
   {
     rm: "554681",
     nome: "Gusthavo Daniel de Souza",
     turma: "1TDSPJ",
-    foto: "/assets/gu.jpg", // Substitua pelo caminho real da imagem
+    foto: "/assets/gu.jpg", 
     github: "https://github.com/GusthavoDaniel/MovePLusGS",
     linkedin: "https://www.linkedin.com/in/gusthavo-de-souza-571a86197/",
   },
@@ -28,7 +28,7 @@ const integrantes = [
     github: "https://github.com/Pietrosaka",
     linkedin: "https://www.linkedin.com/in/pietro-saccarr%C3%A3o-cougo/",
   },
-  // Adicione mais integrantes aqui
+  
 ];
 
 export default function IntegrantesPage() {
@@ -45,7 +45,7 @@ export default function IntegrantesPage() {
                 component="img"
                 alt={`Foto de ${integrante.nome}`}
                 height="200"
-                image={integrante.foto} // Caminho da foto
+                image={integrante.foto} 
               />
               <CardContent>
                 <Typography variant="h6" sx={{ fontWeight: "bold" }}>

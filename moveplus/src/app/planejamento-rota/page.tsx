@@ -19,7 +19,7 @@ export default function PlanejamentoRotaPage() {
       return;
     }
 
-    // Simulação de cálculo de rota com dados fictícios
+    
     const mockData = {
       distancia: "15 km",
       tempo: meioTransporte === "carro" ? "25 minutos" : meioTransporte === "bicicleta" ? "45 minutos" : "1 hora",

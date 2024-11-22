@@ -3,7 +3,7 @@ import { Container, Typography, Box } from "@mui/material";
 const estatisticas = {
   usuarios: 12000,
   kmPercorridos: 150000,
-  co2Evitado: 37500, // Em kg
+  co2Evitado: 37500, 
 };
 
 export default function EstatisticasUsoPage() {

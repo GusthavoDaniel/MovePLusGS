@@ -8,10 +8,10 @@ export default function Navbar() {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: "#f5f9f5", // Cor clara de fundo
+        backgroundColor: "#f5f9f5", 
         boxShadow: "none",
-        paddingY: 1, // Ajusta a altura do cabeçalho
-        borderBottom: "2px solid #d1d5db", // Linha sutil no rodapé do cabeçalho
+        paddingY: 1, 
+        borderBottom: "2px solid #d1d5db", 
       }}
     >
       <Toolbar
@@ -21,7 +21,7 @@ export default function Navbar() {
           alignItems: "center",
           maxWidth: "1200px",
           margin: "0 auto",
-          paddingX: 2, // Espaçamento horizontal
+          paddingX: 2, 
         }}
       >
         {/* Logotipo ajustado e alinhado */}
@@ -30,10 +30,10 @@ export default function Navbar() {
             variant="h5"
             sx={{
               fontWeight: "bold",
-              color: "#3c6e47", // Cor verde escuro
+              color: "#3c6e47", 
               textTransform: "uppercase",
               letterSpacing: "2px",
-              marginLeft: "10px", // Ajuste da posição horizontal
+              marginLeft: "10px", 
             }}
           >
             <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
@@ -46,15 +46,15 @@ export default function Navbar() {
         <Box
           sx={{
             display: "flex",
-            gap: 3, // Espaçamento entre links
-            alignItems: "center", // Alinha os links verticalmente
+            gap: 3, 
+            alignItems: "center", 
           }}
         >
           {[
             { label: "Início", href: "/" },
             { label: "Soluções", href: "/solucoes" },
             { label: "Blog", href: "/blog" },
-            { label: "Quem Somos", href: "/QuemSomos" }, // Novo link adicionado
+            { label: "Quem Somos", href: "/QuemSomos" }, 
             { label: "Integrantes", href: "/integrantes" },
             { label: "Contato", href: "/contato" },
           ].map((link, index) => (
@@ -62,10 +62,10 @@ export default function Navbar() {
               <Typography
                 variant="button"
                 sx={{
-                  color: "#3c6e47", // Verde
+                  color: "#3c6e47", 
                   textDecoration: "none",
                   fontWeight: "bold",
-                  "&:hover": { color: "#256640" }, // Verde mais escuro no hover
+                  "&:hover": { color: "#256640" }, 
                 }}
               >
                 {link.label}
