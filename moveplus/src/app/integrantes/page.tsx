@@ -9,14 +9,14 @@ const integrantes = [
     nome: "Gusthavo Daniel de Souza",
     turma: "1TDSPJ",
     foto: "/assets/gu.jpg", // Substitua pelo caminho real da imagem
-    github: "https://github.com/joaosilva",
-    linkedin: "https://linkedin.com/in/joaosilva",
+    github: "https://github.com/GusthavoDaniel/MovePLusGS",
+    linkedin: "https://www.linkedin.com/in/gusthavo-de-souza-571a86197/",
   },
   {
     rm: "555161",
     nome: "Lucas Miranda Leite",
     turma: "1TDSPJ",
-    foto: "/assets/maria.jpg",
+    foto: "/assets/lucas.png",
     github: "https://github.com/mariaoliveira",
     linkedin: "https://linkedin.com/in/mariaoliveira",
   },
@@ -24,9 +24,9 @@ const integrantes = [
     rm: "555839",
     nome: "Pietro Saccarrao Cougo",
     turma: "1TDSPY",
-    foto: "/assets/carlos.jpg",
-    github: "https://github.com/carlossantos",
-    linkedin: "https://linkedin.com/in/carlossantos",
+    foto: "/assets/Pietro.jpg",
+    github: "https://github.com/Pietrosaka",
+    linkedin: "https://www.linkedin.com/in/pietro-saccarr%C3%A3o-cougo/",
   },
   // Adicione mais integrantes aqui
 ];
