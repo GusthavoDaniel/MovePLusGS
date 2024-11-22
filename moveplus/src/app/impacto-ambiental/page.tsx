@@ -1,7 +1,7 @@
 "use client";
 
 import { Container, Typography, Box, Button, CircularProgress } from "@mui/material";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function ImpactoAmbientalPage() {
   const [impacto, setImpacto] = useState<number | null>(null);
@@ -10,10 +10,10 @@ export default function ImpactoAmbientalPage() {
   const calcularImpacto = () => {
     setLoading(true);
     setTimeout(() => {
-      const valorImpacto = Math.floor(Math.random() * 1000 + 100); // Gera impacto entre 100 e 1000
+      const valorImpacto = Math.floor(Math.random() * 1000 + 100); 
       setImpacto(valorImpacto);
       setLoading(false);
-    }, 1500); // Simula um cálculo demorado
+    }, 1500); 
   };
 
   return (
