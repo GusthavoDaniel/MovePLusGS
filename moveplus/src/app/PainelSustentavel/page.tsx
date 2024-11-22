@@ -7,9 +7,9 @@ import {
   Grid,
   Card,
   CardContent,
-  CardMedia,
   Button,
 } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function PainelSustentavelPage() {
@@ -88,14 +88,14 @@ export default function PainelSustentavelPage() {
             Baixar Relatório
           </Button>
         </Box>
-        <img
+        <Image
           src="/assets/dashboard.jpg"
           alt="Painel de Controle"
+          width={500}
+          height={300}
           style={{
             borderRadius: "8px",
             boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
-            width: "100%",
-            maxWidth: "500px",
           }}
         />
       </Box>
@@ -116,11 +116,12 @@ export default function PainelSustentavelPage() {
         {/* Feature 1 */}
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/assets/energy-tracking.jpg"
+            <Image
+              src="/assets/energy-tracking.jpg"
               alt="Monitoramento de Energia"
+              width={400}
+              height={200}
+              style={{ borderRadius: "8px" }}
             />
             <CardContent>
               <Typography
@@ -140,11 +141,12 @@ export default function PainelSustentavelPage() {
         {/* Feature 2 */}
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/assets/emission-tracker.jpg"
+            <Image
+              src="/assets/emission-tracker.jpg"
               alt="Rastreamento de Emissões"
+              width={400}
+              height={200}
+              style={{ borderRadius: "8px" }}
             />
             <CardContent>
               <Typography
@@ -164,11 +166,12 @@ export default function PainelSustentavelPage() {
         {/* Feature 3 */}
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/assets/gamification.jpg"
+            <Image
+              src="/assets/gamification.jpg"
               alt="Sistema de Recompensas"
+              width={400}
+              height={200}
+              style={{ borderRadius: "8px" }}
             />
             <CardContent>
               <Typography
